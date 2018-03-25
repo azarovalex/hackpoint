@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15D2CCAF1B964BC0649309C2 /* Pods_hackpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1A51698CB6A2C63A5E5CE1 /* Pods_hackpoint.framework */; };
 		EC19A500206843C0006FEE44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19A4FF206843C0006FEE44 /* AppDelegate.swift */; };
 		EC19A502206843C0006FEE44 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19A501206843C0006FEE44 /* FirstViewController.swift */; };
 		EC19A504206843C0006FEE44 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19A503206843C0006FEE44 /* SecondViewController.swift */; };
 		EC19A507206843C0006FEE44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC19A505206843C0006FEE44 /* Main.storyboard */; };
 		EC19A509206843C2006FEE44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC19A508206843C2006FEE44 /* Assets.xcassets */; };
 		EC19A50C206843C2006FEE44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC19A50A206843C2006FEE44 /* LaunchScreen.storyboard */; };
+		EC19A51820684619006FEE44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC19A51720684619006FEE44 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C5D4EC8F965EB9BB521A306 /* Pods-hackpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hackpoint/Pods-hackpoint.debug.xcconfig"; sourceTree = "<group>"; };
+		B815E7E9E81B10370A8E0647 /* Pods-hackpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-hackpoint/Pods-hackpoint.release.xcconfig"; sourceTree = "<group>"; };
+		BF1A51698CB6A2C63A5E5CE1 /* Pods_hackpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC19A4FC206843C0006FEE44 /* hackpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC19A4FF206843C0006FEE44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC19A501206843C0006FEE44 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		EC19A508206843C2006FEE44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC19A50B206843C2006FEE44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC19A50D206843C2006FEE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC19A51720684619006FEE44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15D2CCAF1B964BC0649309C2 /* Pods_hackpoint.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1393059FD2B78E0F7AADE901 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C5D4EC8F965EB9BB521A306 /* Pods-hackpoint.debug.xcconfig */,
+				B815E7E9E81B10370A8E0647 /* Pods-hackpoint.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7963461766CBA0AEFDCC636B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF1A51698CB6A2C63A5E5CE1 /* Pods_hackpoint.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC19A4F3206843C0006FEE44 = {
 			isa = PBXGroup;
 			children = (
 				EC19A4FE206843C0006FEE44 /* hackpoint */,
 				EC19A4FD206843C0006FEE44 /* Products */,
+				1393059FD2B78E0F7AADE901 /* Pods */,
+				7963461766CBA0AEFDCC636B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,48 @@
 		EC19A4FE206843C0006FEE44 /* hackpoint */ = {
 			isa = PBXGroup;
 			children = (
+				EC19A5162068444A006FEE44 /* Extensions */,
+				EC19A51520684431006FEE44 /* Model */,
+				EC19A5142068442C006FEE44 /* View */,
+				EC19A5132068440F006FEE44 /* Controller */,
 				EC19A4FF206843C0006FEE44 /* AppDelegate.swift */,
-				EC19A501206843C0006FEE44 /* FirstViewController.swift */,
-				EC19A503206843C0006FEE44 /* SecondViewController.swift */,
 				EC19A505206843C0006FEE44 /* Main.storyboard */,
 				EC19A508206843C2006FEE44 /* Assets.xcassets */,
 				EC19A50A206843C2006FEE44 /* LaunchScreen.storyboard */,
 				EC19A50D206843C2006FEE44 /* Info.plist */,
+				EC19A51720684619006FEE44 /* GoogleService-Info.plist */,
 			);
 			path = hackpoint;
+			sourceTree = "<group>";
+		};
+		EC19A5132068440F006FEE44 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC19A501206843C0006FEE44 /* FirstViewController.swift */,
+				EC19A503206843C0006FEE44 /* SecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC19A5142068442C006FEE44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC19A51520684431006FEE44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC19A5162068444A006FEE44 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC19A510206843C2006FEE44 /* Build configuration list for PBXNativeTarget "hackpoint" */;
 			buildPhases = (
+				1C9EBB658A8D328B3CB55ECB /* [CP] Check Pods Manifest.lock */,
 				EC19A4F8206843C0006FEE44 /* Sources */,
 				EC19A4F9206843C0006FEE44 /* Frameworks */,
 				EC19A4FA206843C0006FEE44 /* Resources */,
+				1E6BDAC49F191E95429680B9 /* [CP] Embed Pods Frameworks */,
+				EEF7B2C7748B006D330105FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,12 +188,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC19A50C206843C2006FEE44 /* LaunchScreen.storyboard in Resources */,
+				EC19A51820684619006FEE44 /* GoogleService-Info.plist in Resources */,
 				EC19A509206843C2006FEE44 /* Assets.xcassets in Resources */,
 				EC19A507206843C0006FEE44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C9EBB658A8D328B3CB55ECB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hackpoint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E6BDAC49F191E95429680B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-hackpoint/Pods-hackpoint-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hackpoint/Pods-hackpoint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEF7B2C7748B006D330105FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hackpoint/Pods-hackpoint-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC19A4F8206843C0006FEE44 /* Sources */ = {
@@ -282,15 +405,13 @@
 		};
 		EC19A511206843C2006FEE44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C5D4EC8F965EB9BB521A306 /* Pods-hackpoint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CLALR9F4Q5;
 				INFOPLIST_FILE = hackpoint/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = by.azarov.hackpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -300,15 +421,13 @@
 		};
 		EC19A512206843C2006FEE44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B815E7E9E81B10370A8E0647 /* Pods-hackpoint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CLALR9F4Q5;
 				INFOPLIST_FILE = hackpoint/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = by.azarov.hackpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
