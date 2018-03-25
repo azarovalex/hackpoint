@@ -15,6 +15,7 @@
 		EC19A509206843C2006FEE44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC19A508206843C2006FEE44 /* Assets.xcassets */; };
 		EC19A50C206843C2006FEE44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC19A50A206843C2006FEE44 /* LaunchScreen.storyboard */; };
 		EC19A51820684619006FEE44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC19A51720684619006FEE44 /* GoogleService-Info.plist */; };
+		ECD8C8CF20684A0F00C30BA8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8C8CE20684A0F00C30BA8 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		EC19A50B206843C2006FEE44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC19A50D206843C2006FEE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC19A51720684619006FEE44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ECD8C8CE20684A0F00C30BA8 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		EC19A4FE206843C0006FEE44 /* hackpoint */ = {
 			isa = PBXGroup;
 			children = (
+				ECD8C8CD206849FE00C30BA8 /* Services */,
 				EC19A5162068444A006FEE44 /* Extensions */,
 				EC19A51520684431006FEE44 /* Model */,
 				EC19A5142068442C006FEE44 /* View */,
@@ -124,6 +127,14 @@
 			children = (
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ECD8C8CD206849FE00C30BA8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ECD8C8CE20684A0F00C30BA8 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +275,7 @@
 				EC19A504206843C0006FEE44 /* SecondViewController.swift in Sources */,
 				EC19A500206843C0006FEE44 /* AppDelegate.swift in Sources */,
 				EC19A502206843C0006FEE44 /* FirstViewController.swift in Sources */,
+				ECD8C8CF20684A0F00C30BA8 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +423,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CLALR9F4Q5;
 				INFOPLIST_FILE = hackpoint/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = by.azarov.hackpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -427,7 +442,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CLALR9F4Q5;
 				INFOPLIST_FILE = hackpoint/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = by.azarov.hackpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
