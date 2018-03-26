@@ -15,6 +15,10 @@
 		EC19A509206843C2006FEE44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC19A508206843C2006FEE44 /* Assets.xcassets */; };
 		EC19A50C206843C2006FEE44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC19A50A206843C2006FEE44 /* LaunchScreen.storyboard */; };
 		EC19A51820684619006FEE44 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC19A51720684619006FEE44 /* GoogleService-Info.plist */; };
+		EC7B6049206973F8003F1DA9 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B6048206973F8003F1DA9 /* AuthVC.swift */; };
+		EC7B604B20697429003F1DA9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B604A20697429003F1DA9 /* LoginVC.swift */; };
+		EC7B604D2069747F003F1DA9 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B604C2069747F003F1DA9 /* InsetTextField.swift */; };
+		EC7B604F2069784A003F1DA9 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7B604E2069784A003F1DA9 /* ShadowView.swift */; };
 		ECD8C8CF20684A0F00C30BA8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8C8CE20684A0F00C30BA8 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +35,10 @@
 		EC19A50B206843C2006FEE44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC19A50D206843C2006FEE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC19A51720684619006FEE44 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC7B6048206973F8003F1DA9 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		EC7B604A20697429003F1DA9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		EC7B604C2069747F003F1DA9 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		EC7B604E2069784A003F1DA9 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		ECD8C8CE20684A0F00C30BA8 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +112,8 @@
 			children = (
 				EC19A501206843C0006FEE44 /* FirstViewController.swift */,
 				EC19A503206843C0006FEE44 /* SecondViewController.swift */,
+				EC7B6048206973F8003F1DA9 /* AuthVC.swift */,
+				EC7B604A20697429003F1DA9 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -111,6 +121,8 @@
 		EC19A5142068442C006FEE44 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EC7B604C2069747F003F1DA9 /* InsetTextField.swift */,
+				EC7B604E2069784A003F1DA9 /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -272,9 +284,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC7B6049206973F8003F1DA9 /* AuthVC.swift in Sources */,
 				EC19A504206843C0006FEE44 /* SecondViewController.swift in Sources */,
+				EC7B604B20697429003F1DA9 /* LoginVC.swift in Sources */,
 				EC19A500206843C0006FEE44 /* AppDelegate.swift in Sources */,
+				EC7B604F2069784A003F1DA9 /* ShadowView.swift in Sources */,
 				EC19A502206843C0006FEE44 /* FirstViewController.swift in Sources */,
+				EC7B604D2069747F003F1DA9 /* InsetTextField.swift in Sources */,
 				ECD8C8CF20684A0F00C30BA8 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
