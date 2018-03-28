@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		15D2CCAF1B964BC0649309C2 /* Pods_hackpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1A51698CB6A2C63A5E5CE1 /* Pods_hackpoint.framework */; };
 		EC19A500206843C0006FEE44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19A4FF206843C0006FEE44 /* AppDelegate.swift */; };
-		EC19A502206843C0006FEE44 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19A501206843C0006FEE44 /* FirstViewController.swift */; };
-		EC19A504206843C0006FEE44 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19A503206843C0006FEE44 /* SecondViewController.swift */; };
+		EC19A502206843C0006FEE44 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19A501206843C0006FEE44 /* FeedVC.swift */; };
+		EC19A504206843C0006FEE44 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19A503206843C0006FEE44 /* GroupsVC.swift */; };
 		EC19A507206843C0006FEE44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC19A505206843C0006FEE44 /* Main.storyboard */; };
 		EC19A509206843C2006FEE44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC19A508206843C2006FEE44 /* Assets.xcassets */; };
 		EC19A50C206843C2006FEE44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC19A50A206843C2006FEE44 /* LaunchScreen.storyboard */; };
@@ -29,8 +29,8 @@
 		BF1A51698CB6A2C63A5E5CE1 /* Pods_hackpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC19A4FC206843C0006FEE44 /* hackpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC19A4FF206843C0006FEE44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC19A501206843C0006FEE44 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		EC19A503206843C0006FEE44 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EC19A501206843C0006FEE44 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		EC19A503206843C0006FEE44 /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		EC19A506206843C0006FEE44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC19A508206843C2006FEE44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC19A50B206843C2006FEE44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -112,8 +112,8 @@
 		EC19A5132068440F006FEE44 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				EC19A501206843C0006FEE44 /* FirstViewController.swift */,
-				EC19A503206843C0006FEE44 /* SecondViewController.swift */,
+				EC19A501206843C0006FEE44 /* FeedVC.swift */,
+				EC19A503206843C0006FEE44 /* GroupsVC.swift */,
 				EC7B6048206973F8003F1DA9 /* AuthVC.swift */,
 				EC7B604A20697429003F1DA9 /* LoginVC.swift */,
 			);
@@ -288,12 +288,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC7B6049206973F8003F1DA9 /* AuthVC.swift in Sources */,
-				EC19A504206843C0006FEE44 /* SecondViewController.swift in Sources */,
+				EC19A504206843C0006FEE44 /* GroupsVC.swift in Sources */,
 				EC7B604B20697429003F1DA9 /* LoginVC.swift in Sources */,
 				ECA49638206AF2BB002B8227 /* AuthService.swift in Sources */,
 				EC19A500206843C0006FEE44 /* AppDelegate.swift in Sources */,
 				EC7B604F2069784A003F1DA9 /* ShadowView.swift in Sources */,
-				EC19A502206843C0006FEE44 /* FirstViewController.swift in Sources */,
+				EC19A502206843C0006FEE44 /* FeedVC.swift in Sources */,
 				EC7B604D2069747F003F1DA9 /* InsetTextField.swift in Sources */,
 				ECD8C8CF20684A0F00C30BA8 /* DataService.swift in Sources */,
 			);
