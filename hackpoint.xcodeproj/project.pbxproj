@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		15D2CCAF1B964BC0649309C2 /* Pods_hackpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1A51698CB6A2C63A5E5CE1 /* Pods_hackpoint.framework */; };
+		EC105C23207A868200AF7E80 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC105C22207A868200AF7E80 /* CreatePostVC.swift */; };
+		EC105C25207A8E0B00AF7E80 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC105C24207A8E0B00AF7E80 /* UIViewExt.swift */; };
 		EC19A500206843C0006FEE44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19A4FF206843C0006FEE44 /* AppDelegate.swift */; };
 		EC19A502206843C0006FEE44 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19A501206843C0006FEE44 /* FeedVC.swift */; };
 		EC19A504206843C0006FEE44 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC19A503206843C0006FEE44 /* GroupsVC.swift */; };
@@ -28,6 +30,8 @@
 		0C5D4EC8F965EB9BB521A306 /* Pods-hackpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hackpoint/Pods-hackpoint.debug.xcconfig"; sourceTree = "<group>"; };
 		B815E7E9E81B10370A8E0647 /* Pods-hackpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-hackpoint/Pods-hackpoint.release.xcconfig"; sourceTree = "<group>"; };
 		BF1A51698CB6A2C63A5E5CE1 /* Pods_hackpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC105C22207A868200AF7E80 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		EC105C24207A8E0B00AF7E80 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		EC19A4FC206843C0006FEE44 /* hackpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC19A4FF206843C0006FEE44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC19A501206843C0006FEE44 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -119,6 +123,7 @@
 				EC7B6048206973F8003F1DA9 /* AuthVC.swift */,
 				EC7B604A20697429003F1DA9 /* LoginVC.swift */,
 				EC5537EB206C4D7500342149 /* MeVC.swift */,
+				EC105C22207A868200AF7E80 /* CreatePostVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 		EC19A5162068444A006FEE44 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				EC105C24207A8E0B00AF7E80 /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -290,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC105C25207A8E0B00AF7E80 /* UIViewExt.swift in Sources */,
 				EC5537EC206C4D7500342149 /* MeVC.swift in Sources */,
 				EC7B6049206973F8003F1DA9 /* AuthVC.swift in Sources */,
 				EC19A504206843C0006FEE44 /* GroupsVC.swift in Sources */,
@@ -297,6 +304,7 @@
 				ECA49638206AF2BB002B8227 /* AuthService.swift in Sources */,
 				EC19A500206843C0006FEE44 /* AppDelegate.swift in Sources */,
 				EC7B604F2069784A003F1DA9 /* ShadowView.swift in Sources */,
+				EC105C23207A868200AF7E80 /* CreatePostVC.swift in Sources */,
 				EC19A502206843C0006FEE44 /* FeedVC.swift in Sources */,
 				EC7B604D2069747F003F1DA9 /* InsetTextField.swift in Sources */,
 				ECD8C8CF20684A0F00C30BA8 /* DataService.swift in Sources */,
