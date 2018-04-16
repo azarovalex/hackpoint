@@ -26,6 +26,7 @@
 		EC9C2CC5207B91B900BF7321 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9C2CC4207B91B900BF7321 /* FeedCell.swift */; };
 		ECA49638206AF2BB002B8227 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA49637206AF2BB002B8227 /* AuthService.swift */; };
 		ECD8C8CF20684A0F00C30BA8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD8C8CE20684A0F00C30BA8 /* DataService.swift */; };
+		ECE24B5E20854C7400940227 /* CreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE24B5D20854C7400940227 /* CreateGroupVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		EC9C2CC4207B91B900BF7321 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		ECA49637206AF2BB002B8227 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		ECD8C8CE20684A0F00C30BA8 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		ECE24B5D20854C7400940227 /* CreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				EC7B604A20697429003F1DA9 /* LoginVC.swift */,
 				EC5537EB206C4D7500342149 /* MeVC.swift */,
 				EC105C22207A868200AF7E80 /* CreatePostVC.swift */,
+				ECE24B5D20854C7400940227 /* CreateGroupVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				ECA49638206AF2BB002B8227 /* AuthService.swift in Sources */,
 				EC19A500206843C0006FEE44 /* AppDelegate.swift in Sources */,
 				EC9C2CC5207B91B900BF7321 /* FeedCell.swift in Sources */,
+				ECE24B5E20854C7400940227 /* CreateGroupVC.swift in Sources */,
 				EC7B604F2069784A003F1DA9 /* ShadowView.swift in Sources */,
 				EC105C23207A868200AF7E80 /* CreatePostVC.swift in Sources */,
 				EC9C2CC3207B8BFB00BF7321 /* Message.swift in Sources */,
